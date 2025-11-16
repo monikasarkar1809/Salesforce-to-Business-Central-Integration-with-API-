@@ -3,7 +3,7 @@
 
 ---
 
-# 🔄 Salesforce → Business Central Integration QA Project
+# 🔄 Salesforce → Business Central Integration With API QA Project
 
 ## 📘 Project Overview
 This QA project demonstrates a complete **end-to-end API integration** between **Salesforce Accounts** and **Microsoft Business Central Customers**.
