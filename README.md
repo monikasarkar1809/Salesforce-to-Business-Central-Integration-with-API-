@@ -8,6 +8,9 @@
 ## 📘 Project Overview
 This QA project demonstrates a complete **end-to-end API integration** between **Salesforce Accounts** and **Microsoft Business Central Customers**.
 
+![image alt](https://github.com/monikasarkar1809/Salesforce-to-Business-Central-Integration-with-API-/blob/a4a5ed56f2f7203ce7f6b9b7ddf3803e8cf06ad1/Salesforce%20Integration%20With%20Business%20Central.png)
+
+
 The objective is to validate:
 - API connectivity
 - Mapping Salesforce Account data to Business Central Customer fields
