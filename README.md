@@ -1,0 +1,114 @@
+# 👩‍💻 Created By  
+**Monika Sarkar**
+
+---
+
+# 🔄 Salesforce → Business Central Integration QA Project
+
+## 📘 Project Overview
+This QA project demonstrates a complete **end-to-end API integration** between **Salesforce Accounts** and **Microsoft Business Central Customers**.
+
+The objective is to validate:
+- API connectivity
+- Mapping Salesforce Account data to Business Central Customer fields
+- Successful creation of customers in Business Central using API
+- Error handling (invalid fields, expired token)
+- Data consistency between Salesforce and Business Central
+
+This simulates real-world CRM → ERP integration used in finance, billing, and customer onboarding.
+
+---
+
+## 📌 The Project Covers:
+
+### 🔹 Salesforce Side
+- Creation of test Accounts  
+- Extraction of Account details  
+- Data preparation for API integration  
+
+### 🔹 API Testing
+- OAuth authentication configuration  
+- **GET** request to fetch existing BC customers  
+- **POST** request to create a new customer  
+- HTTP response code validation  
+
+### 🔹 Business Central Side
+- Validation of created customer  
+- Field accuracy (Name, Phone, City)  
+- Customer numbering (e.g., C00010)  
+
+---
+
+# ⚙️ Key Features Tested
+
+### ✅ GET Integration Testing  
+- Successful retrieval of customer list  
+- Authentication validation using Bearer tokens  
+
+### ✅ POST Integration Testing  
+- Creating a Business Central customer using Salesforce data  
+- Verified `201 Created` response  
+- Verified fields in BC UI  
+
+### ✅ Field Mapping Validation (SFDC → Business Central)
+
+| Salesforce Field | Business Central Field |
+|------------------|-------------------------|
+| Account Name | displayName |
+| Phone | phoneNumber |
+| Billing City | city |
+| Billing Street | addressLine1 |
+| Currency | currencyCode |
+
+
+### ✅ Business Central UI Validation  
+- New customer appears in Customer List  
+- Customer Card fields match Salesforce  
+- Customer Number auto-generated (e.g., C00010)
+
+---
+
+# 📊 Business Central Validation Screens
+
+Although Business Central does not contain dashboards for customers like Salesforce, validation focused on:
+
+1️⃣ **Customer List Page**  
+2️⃣ **Customer Card Details**  
+3️⃣ **API Response Data**  
+4️⃣ **Field Mapping Verification**
+
+---
+
+# 📑 Google Sheet – Test Cases  
+Click below for detailed test cases:  
+👉 *Add your Google Sheet link here*
+
+---
+
+# 📸 Screenshots of Integration
+
+### 1. Salesforce Account Used for Integration  
+*(Add link)*
+
+### 2. Postman – GET Customers (200 OK)  
+*(Add link)*
+
+### 3. Postman – POST Customer (201 Created)  
+*(Add link)*
+
+### 4. Business Central – Customer Created (C00010)  
+*(Add link)*
+
+### 5. Field Mapping Validation  
+*(Add link)*
+
+### 6. Error Validation Screenshot  
+*(Add link)*
+
+---
+
+# 🔗 API Endpoints Used
+
+### **GET Customers**
+```http
+GET https://api.businesscentral.dynamics.com/v2.0/<tenantID>/Production/api/v2.0/companies(<companyID>)/customers
