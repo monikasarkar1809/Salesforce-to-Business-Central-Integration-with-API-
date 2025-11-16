@@ -80,31 +80,22 @@ Although Business Central does not contain dashboards for customers like Salesfo
 ---
 
 # 📑 Google Sheet – Test Cases  
-Click below for detailed test cases:  
-👉 *Add your Google Sheet link here*
+[https://docs.google.com/spreadsheets/d/1TP_72GkmbMeg0wfoSEikLlZradZKtgqsFyfREIf5q_s/edit?usp=sharing]
 
----
 
 # 📸 Screenshots of Integration
 
 ### 1. Salesforce Account Used for Integration  
-*(Add link)*
-
-### 2. Postman – GET Customers (200 OK)  
-*(Add link)*
+[https://drive.google.com/file/d/1SlOpU1Taur81uIwRbwZvkDEM91nGy5bC/view?usp=sharing]
 
 ### 3. Postman – POST Customer (201 Created)  
-*(Add link)*
+[https://drive.google.com/file/d/1JwQxs1VSFd5jqhlcAdlFjfFSitRk_P0x/view?usp=sharing]
 
 ### 4. Business Central – Customer Created (C00010)  
-*(Add link)*
+[https://drive.google.com/file/d/1HLJKZTVG-bFwprtKg-qm0Az0lLoA8ZE8/view?usp=sharing]
 
 ### 5. Field Mapping Validation  
-*(Add link)*
-
-### 6. Error Validation Screenshot  
-*(Add link)*
-
+[https://drive.google.com/file/d/1gpIblYqZbrMY98BZafYusZnh1-CC4dum/view?usp=sharing]
 ---
 
 # 🔗 API Endpoints Used
