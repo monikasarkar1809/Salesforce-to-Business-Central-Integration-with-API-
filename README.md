@@ -101,10 +101,13 @@ Although Business Central does not contain dashboards for customers like Salesfo
 
 [https://drive.google.com/file/d/1gpIblYqZbrMY98BZafYusZnh1-CC4dum/view?usp=sharing]
 
----
 
-# 🔗 API Endpoints Used
+📫 Connect with Me
 
-### **GET Customers**
-```http
-GET https://api.businesscentral.dynamics.com/v2.0/<tenantID>/Production/api/v2.0/companies(<companyID>)/customers
+💼 LinkedIn : https://www.linkedin.com/in/monika-sarkar-b86858269/
+
+✉️ Email: monikasarkar1809@gmail.com
+
+🙏 Thank you for visiting my portfolio!
+I’m excited to contribute to building reliable and user-friendly applications by ensuring quality at every step.
+
