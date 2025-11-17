@@ -38,7 +38,7 @@ This simulates real-world CRM → ERP integration used in finance, billing, and 
 ### 🔹 Business Central Side
 - Validation of created customer  
 - Field accuracy (Name, Phone, City)  
-- Customer numbering (e.g., C00010)  
+- Customer numbering (like, C00010)  
 
 ---
 
