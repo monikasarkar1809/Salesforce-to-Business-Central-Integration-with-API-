@@ -98,6 +98,7 @@ Although Business Central does not contain dashboards for customers like Salesfo
 [https://drive.google.com/file/d/1HLJKZTVG-bFwprtKg-qm0Az0lLoA8ZE8/view?usp=sharing]
 
 ### 5. Field Mapping Validation  
+[https://drive.google.com/file/d/1EvWeX43a9cj8hkopFUK8FjTgCRCy875w/view?usp=sharing]
 
 [https://drive.google.com/file/d/1gpIblYqZbrMY98BZafYusZnh1-CC4dum/view?usp=sharing]
 
